@@ -1,0 +1,156 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+nav{
+	background-color: black;
+	height: 50px;
+	width: 100%;
+	display: none;
+}
+ul{
+	margin-left: 60px;
+}
+ul li{
+	display: inline-block;
+	line-height: 50px;
+	list-style: none;
+}
+ul li a{
+	color: white;
+	text-decoration: none;
+	padding: 0 40px 0px 0px;
+	font-size: 18px;
+	display: block;
+	font-family: arial;
+}
+.menu:hover{
+	color: gray;
+}
+.menu-more:hover{
+	color:gray;
+	background-color: #f3f3f3;
+}
+.menu-more{
+	padding: 0px 14px 0px 14px;
+}
+.search-icon{
+	float: right;
+	display: block;
+	line-height: 50px;
+	padding: 0 0px 0px 35px;
+}
+.search-icon:hover{
+	background-color: red;
+}
+nav ul li {
+	float: left;
+	list-style: none;
+	position: relative;
+}
+.container{
+	width: 100%;
+}
+img{
+	width: 100%;
+	height:300px;
+}
+.sec-header{
+	padding: 100px 0px 30px 0px;
+	text-align: center;
+	font-size: 35px;
+}
+h5{
+	padding:0px 0px 20px 0px;
+	text-align: center;
+	font-family: arial;
+	color:silver;
+}
+p{
+	padding: 0px 20px 0px 20px;
+	line-height: 20px;
+	font-size: 15px;
+	font-family: arial;
+}
+article{
+	margin-bottom: 40px;
+}
+@media only screen and (min-width: 768px){
+	nav{
+		display: block;
+	}
+	article{
+		width:70%;
+		margin: auto;
+		margin-bottom: 40px;
+	}
+	.img{
+		height:315px;
+	}
+	.first-nav{
+	display: none;
+}
+}
+@media only screen and (min-width: 1000px){
+	.img{
+		height: 620px;
+	}
+	article{
+		width:70%;
+		margin: auto;
+		padding-bottom: 40px;
+	}
+	.first-nav{
+	display: none;
+}
+}
+.first-nav{
+	background: black;
+}
+.first-nav ul li a{
+	color:white;
+	display: block;
+	font-size: 18px;
+}
+.first-nav ul li a:hover{
+	color:gray;
+}
+.menu-icon{
+	float:right;
+	display: block;
+	line-height: 50px;
+	padding: 0px 20px 0px 20px;
+}
+.menu-icon:hover{
+	background-color: #f3f3f3;
+}
+.second-nav ul li{
+	position: relative;
+	list-style: none;
+}
+.second-nav ul li ul li a{
+	font-family: arial;
+	font-size: 15px;
+	text-decoration: none;
+	line-height: 60px;
+	display: block;
+	color:gray;
+	padding: 0px 18px;
+}
+.second-nav ul li ul li{
+	width: 180px;
+	padding: 0px 10px 0px 10px;
+}
+.second-nav ul li ul{
+	position: absolute;
+	background-color: white;
+	border-radius: 0px 0px 4px 4px;
+	display: none;
+}
+.second-nav ul li ul li a:hover{
+	background-color: #f3f3f3;
+	color:red;
+}
+.second-nav ul li:hover ul{
+	display: block;
+}
